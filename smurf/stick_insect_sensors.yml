@@ -1,0 +1,11 @@
+#sensors definition SMURF file for "stick_insect", 20170206_12:23
+
+sensors:
+- bands: 1
+  draw_rays: true
+  horizontal_resolution: 0.235
+  link: link_velodyne
+  max_distance: 5.0
+  min_distance: 1.0
+  name: velodyne
+  type: RotatingRaySensor

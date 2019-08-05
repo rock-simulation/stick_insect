@@ -1,0 +1,63 @@
+#materials definition SMURF file for "stick_insect", 20170211_12:12
+
+materials:
+- ambientColor:
+    b: 0.14757
+    g: 0.10058
+    r: 0.07902
+  diffuseColor:
+    b: 0.14757
+    g: 0.10058
+    r: 0.07902
+  name: body
+  shininess: 25.0
+  specularColor:
+    b: 0.5
+    g: 0.5
+    r: 0.5
+  users: 18
+- ambientColor:
+    b: 0.8
+    g: 0.51641
+    r: 0.35052
+  diffuseColor:
+    b: 0.8
+    g: 0.51641
+    r: 0.35052
+  name: lower_leg
+  shininess: 25.0
+  specularColor:
+    b: 0.5
+    g: 0.5
+    r: 0.5
+  users: 6
+- ambientColor:
+    b: 0.34339
+    g: 0.1863
+    r: 0.10054
+  diffuseColor:
+    b: 0.34339
+    g: 0.1863
+    r: 0.10054
+  name: upper_leg
+  shininess: 25.0
+  specularColor:
+    b: 0.5
+    g: 0.5
+    r: 0.5
+  users: 7
+- ambientColor:
+    b: 0.42216
+    g: 0.42216
+    r: 0.42216
+  diffuseColor:
+    b: 0.42216
+    g: 0.42216
+    r: 0.42216
+  name: velodyne
+  shininess: 27.0
+  specularColor:
+    b: 0.77481
+    g: 0.77481
+    r: 0.77481
+  users: 1

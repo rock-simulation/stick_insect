@@ -1,0 +1,117 @@
+#chains definition SMURF file for "stick_insect", 20170211_12:51
+
+chains:
+- actuators:
+  - leg11
+  - leg12
+  - leg13
+  end: leg13
+  name: leg1
+  properties:
+    rotation:
+      w: 0
+      x: 0
+      y: 0.70711
+      z: 0.70711
+    translation:
+      x: 0.3
+      y: 0.1
+      z: 0
+  software:
+  - reference: leg_control.yml
+  start: leg11
+- actuators:
+  - leg21
+  - leg22
+  - leg23
+  end: leg23
+  name: leg2
+  properties:
+    rotation:
+      w: 0.70711
+      x: 0.70711
+      y: 0
+      z: 0
+    translation:
+      x: 0.3
+      y: -0.1
+      z: 0
+  software:
+  - reference: leg_control.yml
+  start: leg21
+- actuators:
+  - leg31
+  - leg32
+  - leg33
+  end: leg33
+  name: leg3
+  properties:
+    rotation:
+      w: 0
+      x: 0
+      y: 0.70711
+      z: 0.70711
+    translation:
+      x: 0
+      y: 0.1
+      z: 0
+  software:
+  - reference: leg_control.yml
+  start: leg31
+- actuators:
+  - leg41
+  - leg42
+  - leg43
+  end: leg43
+  name: leg4
+  properties:
+    rotation:
+      w: 0.70711
+      x: 0.70711
+      y: 0
+      z: 0
+    translation:
+      x: 0
+      y: -0.1
+      z: 0
+  software:
+  - reference: leg_control.yml
+  start: leg41
+- actuators:
+  - leg51
+  - leg52
+  - leg53
+  end: leg53
+  name: leg5
+  properties:
+    rotation:
+      w: 0
+      x: 0
+      y: 0.70711
+      z: 0.70711
+    translation:
+      x: -0.3
+      y: 0.1
+      z: 0
+  software:
+  - reference: leg_control.yml
+  start: leg51
+- actuators:
+  - leg61
+  - leg62
+  - leg63
+  end: leg63
+  name: leg6
+  properties:
+    rotation:
+      w: 0.70711
+      x: 0.70711
+      y: 0
+      z: 0
+    translation:
+      x: -0.3
+      y: -0.1
+      z: 0
+  software:
+  - reference: leg_control.yml
+  start: leg61

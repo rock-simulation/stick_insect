@@ -1,0 +1,43 @@
+#poses definition SMURF file for "stick_insect", 20170201_15:10
+
+poses:
+  - name: walking
+    joints:
+      leg12: -0.52359
+      leg22: -0.52359
+      leg32: -0.52359
+      leg42: -0.52359
+      leg52: -0.52359
+      leg62: -0.52359
+      leg13: 0.6981
+      leg23: 0.6981
+      leg33: 0.6981
+      leg43: 0.6981
+      leg53: 0.6981
+      leg63: 0.6981
+      leg11: -1.57
+      leg21: -1.57
+      leg31: -1.57
+      leg41: -1.57
+      leg51: -1.57
+      leg61: -1.57
+  - name: walking2
+    joints:
+      leg12: 1.16
+      leg22: -1.16
+      leg32: 1.17
+      leg42: -1.17
+      leg52: 1.16
+      leg62: -1.16
+      leg13: -1.05
+      leg23: 1.05
+      leg33: -0.96
+      leg43: 0.96
+      leg53: -1.05
+      leg63: 1.05
+      leg11: -0.81
+      leg21: 0.81
+      leg31: -1.16
+      leg41: 1.16
+      leg51: -1.57
+      leg61: 1.57      

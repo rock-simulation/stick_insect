@@ -1,0 +1,15 @@
+# main SMURF file of model "stick_insect"
+# created with Phobos 0.7 - https://github.com/rock-simulation/phobos
+
+SMURF version: 0.7
+modelname: stick_insect
+date: '20170211_12:12'
+files:
+- ../urdf/stick_insect.urdf
+- stick_insect_chains.yml
+- stick_insect_collision.yml
+- stick_insect_materials.yml
+- stick_insect_motors.yml
+- stick_insect_sensors.yml
+- stick_insect_poses.yml
+- stick_insect_hardware.yml

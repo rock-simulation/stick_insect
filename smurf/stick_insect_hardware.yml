@@ -1,0 +1,39 @@
+templates:
+  - type: system_modelling::hardware_graph::Interface
+    name: usb
+  - type: system_modelling::hardware_graph::Interface
+    name: ethernet
+  - type: system_modelling::hardware_graph::Peripheral
+    interfaces:
+      - type: usb
+        name: usb0
+    name: camera
+  - name: main-pc
+    type: system_modelling::hardware_graph::Conventional
+    architecture: amd64
+    interfaces:
+      - type: usb
+        name: usb0
+      - type: ethernet
+        name: eth0
+  - type: system_modelling::hardware_graph::Bus
+    name: usb
+  - type: system_modelling::hardware_graph::Bus
+    name: ethernet
+devices:
+  - type: camera
+    name: head/camera
+  - architecture: amd64
+    name: control-pc
+    hostname: localhost
+    type: main-pc
+connections:
+  - links:
+      - head/camera/usb0
+      - control-pc/usb0
+    type: usb
+    name: toCamera
+  - type: ethernet
+    name: switch
+    links:
+      - control-pc/eth0
